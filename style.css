@@ -81,6 +81,10 @@ header .menu {
   font-size: 2.5em;
   display: none;
 }
+.bottom{
+  background-color: black;
+  border-radius: 1rem;
+}
 
 @media (max-width: 1000px) {
   .search-box button {
@@ -141,6 +145,7 @@ header .menu {
   color: #4483e5;
   font-size: 290%;
   font-weight: bold;
+  margin-left: -7px;
 }
 #hero-right {
   display: flex;
@@ -151,6 +156,7 @@ header .menu {
 #hero-text {
   color: #2a2a2a;
   font-size: 21px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 #hero-right form {
   margin-top: 5%;
